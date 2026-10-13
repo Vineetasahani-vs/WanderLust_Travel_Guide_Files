@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Wanderlust</title>
+  </head>
+
+  <body>
+    <h1>Contact Wanderlust</h1>
+
+    <p>Tell us about your next travel adventure.</p>
+
+    <hr />
+
+    <a href="index.html">Home</a> |
+    <a href="destinations.html">Destinations</a> |
+    <a href="travel-info.html">Travel Information</a> |
+    <a href="travel-tips.html">Travel Tips</a> |
+    <a href="travel-video.html">Travel Video</a> |
+    <a href="contact.html">Contact Us</a>
+
+    <hr />
+
+    <h2>Travel Enquiry Form</h2>
+
+    <p>
+      This form is for HTML practice only. It does not send messages to a real
+      inbox.
+    </p>
+
+    <form action="#" method="get">
+      <label for="name">Your Name:</label>
+      <br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      />
+
+      <br /><br />
+
+      <label for="email">Your Email:</label>
+      <br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <br /><br />
+
+      <label for="destination">Choose a Destination:</label>
+      <br />
+
+      <select id="destination" name="destination">
+        <option value="Jaipur">Jaipur</option>
+        <option value="Manali">Manali</option>
+        <option value="Goa">Goa</option>
+        <option value="Udaipur">Udaipur</option>
+      </select>
+
+      <br /><br />
+
+      <label for="date">Preferred Travel Date:</label>
+      <br />
+      <input type="date" id="date" name="date" />
+
+      <br /><br />
+
+      <label for="message">Your Message:</label>
+      <br />
+
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        cols="40"
+        placeholder="Write your message"
+      ></textarea>
+
+      <br /><br />
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Clear" />
+    </form>
+
+    <hr />
+
+    <a href="index.html">Return to Home</a>
+  </body>
+</html>
